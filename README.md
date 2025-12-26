@@ -37,7 +37,7 @@ edit the statusline in Claude Code settings file (`~/.claude/settings.json`)
 Download the script
 
 ```bash
-curl -o ~/.claude/statusline.sh https://raw.githubusercontent.com/yourusername/statusline.sh/main/statusline.sh
+curl -o ~/.claude/statusline.sh https://raw.githubusercontent.com/masanorih/statusline.sh/refs/heads/main/statusline.sh
 chmod +x ~/.claude/statusline.sh
 ```
 
