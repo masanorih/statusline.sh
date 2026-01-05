@@ -1,3 +1,5 @@
+[日本語](README.ja.md) | [English](README.md)
+
 # statusline.sh
 
 A shell script for displaying Claude Code statusline
@@ -5,6 +7,20 @@ A shell script for displaying Claude Code statusline
 ## Overview
 
 This script formats and displays information on the Claude Code statusline, including model name, token usage, 5-hour utilization rate, and reset time in a readable format.
+
+## Prerequisites
+
+- `jq` command must be installed
+- Claude Code credentials must be stored in `~/.claude/.credentials.json`
+
+## Installation
+
+Download the script
+
+```bash
+curl -o ~/.claude/statusline.sh https://raw.githubusercontent.com/masanorih/statusline.sh/refs/heads/main/statusline.sh
+chmod +x ~/.claude/statusline.sh
+```
 
 ## Setup
 
@@ -26,20 +42,6 @@ edit the statusline in Claude Code settings file (`~/.claude/settings.json`)
 - Show 5-hour utilization rate as a percentage
 - Display the next reset time
 - Cache usage data from API to reduce unnecessary API calls
-
-## Prerequisites
-
-- `jq` command must be installed
-- Claude Code credentials must be stored in `~/.claude/.credentials.json`
-
-## Installation
-
-Download the script
-
-```bash
-curl -o ~/.claude/statusline.sh https://raw.githubusercontent.com/masanorih/statusline.sh/refs/heads/main/statusline.sh
-chmod +x ~/.claude/statusline.sh
-```
 
 ## Usage
 
